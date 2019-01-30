@@ -1,0 +1,49 @@
+{
+  "name": "@sigmadigital/eslint-config-kitchemsink",
+  "version": "0.0.1",
+  "description": "All weather eslint connfig for JS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semver:patch": "npm version patch",
+    "semver:minor": "npm version minor",
+    "semver:major": "npm version major",
+    "distribute": "npm publish --access public",
+    "distribute:patch": "npm run semver:patch && npm run distribute",
+    "distribute:minor": "npm run semver:minor && npm run distribute",
+    "distribute:major": "npm run semver:major && npm run distribute"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigmadigitalza/eslint-config-kitchensink.git"
+  },
+  "keywords": [
+    "eslint",
+    "node",
+    "react",
+    "flow",
+    "airbnb",
+    "prettier",
+    "sigmadigital"
+  ],
+  "author": "Paul van Zyl <pushplaybang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sigmadigitalza/eslint-config-kitchensink/issues"
+  },
+  "homepage": "https://github.com/sigmadigitalza/eslint-config-kitchensink#readme",
+  "dependencies": {
+    "babel-eslint": ">= 10",
+    "eslint-config-airbnb": ">= 17.1.0",
+    "eslint-config-airbnb-standard": ">= 2",
+    "eslint-config-prettier": ">= 4",
+    "eslint-plugin-flowtype": ">= 3.2.1",
+    "eslint-plugin-import": ">= 2.15.0",
+    "eslint-plugin-jest": ">= 22",
+    "eslint-plugin-jsx-a11y": ">= 6.2.0",
+    "eslint-plugin-prettier": ">= 3",
+    "eslint-plugin-react": ">= 7.12.4",
+    "eslint-plugin-standard": ">= 4",
+    "eslint-plugin-flowtype-errors": ">= 3.6.0"
+  }
+}
