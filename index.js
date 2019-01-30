@@ -38,6 +38,8 @@ module.exports = {
     "react/display-name": 0,
     "react/jsx-one-expression-per-line": 0,
     "react/destructuring-assignment": 1,
+    "flowtype-errors/show-errors": 2,
+    "flowtype-errors/show-warnings": 1,
     "object-shorthand": [
       1,
       "always",
