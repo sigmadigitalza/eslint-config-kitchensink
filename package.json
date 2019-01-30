@@ -1,6 +1,6 @@
 {
   "name": "@sigmadigital/eslint-config-kitchensink",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "All weather eslint connfig for JS projects",
   "main": "index.js",
   "scripts": {
