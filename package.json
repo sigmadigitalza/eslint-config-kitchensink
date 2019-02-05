@@ -4,7 +4,7 @@
   "description": "All weather eslint connfig for JS projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
     "semver:patch": "npm version patch",
     "semver:minor": "npm version minor",
     "semver:major": "npm version major",
@@ -45,5 +45,11 @@
     "eslint-plugin-react": ">= 7.12.4",
     "eslint-plugin-standard": ">= 4",
     "eslint-plugin-flowtype-errors": ">= 3.6.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "^1.11.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
   }
 }
