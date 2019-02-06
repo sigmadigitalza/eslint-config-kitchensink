@@ -46,7 +46,8 @@
     "eslint-plugin-flowtype-errors": ">= 3.6.0"
   },
   "devDependencies": {
-    "auto-changelog": "^1.11.0"
+    "auto-changelog": "^1.11.0",
+    "eslint-config-airbnb-base": "^13.1.0"
   },
   "peerDependencies": {
     "eslint": ">= 5"

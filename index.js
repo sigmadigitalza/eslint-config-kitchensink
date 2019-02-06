@@ -8,12 +8,13 @@ module.exports = {
     }
   },
   extends: [
-    "airbnb",
+    "eslint-config-airbnb-base",
+    "./react.js",
     "plugin:flowtype/recommended",
     "plugin:react/recommended",
     "prettier/flowtype",
     "plugin:prettier/recommended"
-  ],
+  ].map(require.resolve),
   plugins: ["flowtype", "flowtype-errors", "react", "prettier", "jest"],
   env: {
     "es6": true,
