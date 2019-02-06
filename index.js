@@ -14,7 +14,7 @@ module.exports = {
     "plugin:react/recommended",
     "prettier/flowtype",
     "plugin:prettier/recommended"
-  ].map(require.resolve),
+  ],
   plugins: ["flowtype", "flowtype-errors", "react", "prettier", "jest"],
   env: {
     "es6": true,
