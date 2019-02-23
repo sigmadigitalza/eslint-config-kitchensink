@@ -12,10 +12,13 @@ module.exports = {
     "./react.js",
     "plugin:flowtype/recommended",
     "plugin:react/recommended",
+    "prettier",
     "prettier/flowtype",
-    "plugin:prettier/recommended"
+    "prettier/babel",
+    "prettier/flowtype",
+    "prettier/react",
   ],
-  plugins: ["flowtype", "flowtype-errors", "react", "prettier", "jest"],
+  plugins: ["flowtype", "flowtype-errors", "react", "jest",  "prettier"],
   env: {
     "es6": true,
     "browser": true,
